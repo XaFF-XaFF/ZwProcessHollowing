@@ -1,6 +1,4 @@
 #pragma once
 
-// Insert EXE file here
-unsigned char buf[] = {
-	0xde, 0xad, 0xbe, 0xef
-};
+// Put your rc4 encrypted executable here
+unsigned char buf[4] = { 0x1,0x2,0x3,0x4 };
